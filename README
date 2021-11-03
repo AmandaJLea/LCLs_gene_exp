@@ -1,0 +1,27 @@
+This repository contains code for analyses and figures related to:
+
+Diverse environmental perturbations reveal the evolution and context-dependency of genetic effects on gene expression levels
+Amanda J. Lea, Julie Peng, Julien F. Ayroles
+
+Specifically, the scripts provided here are:
+
+1) 3Nov21_related_to_figure1.R 
+Code to: map the source locations for individuals included in this study; plot a PCA of the 1000 Genomes genotype data for individuals included in this study; estimate and plot sharing of treatment effects using the mashR output
+2) 3Nov21_related_to_figure2.R
+Code to: plot expression levels for an example gene; estimate and plot sharing of ancestry effects across cellular environments from the mashR output; test for functional enrichment of ancestry-associated genes with GSEA (and plot results); plot Fst for ancestry-associated vs not ancestry-associated genes; plot Fst vs Pst estimated in each cellular environment
+3) 3Nov21_related_to_figure3.R
+Code to: compare h2 between cellular environments (using full sample sizes as well as same-sized subsets of the data for each environment); estimate and plot sharing of eQTL effects across cellular environments using the mashR output
+4) 3Nov21_related_to_figure4.R
+Code to: test for enrichment of context-dependent and ubiquitous eQTL in TWAS genes, GWAS hits, LOF genes, and iHS outliers (and plot results); compare two measures of sequence conservation for genes with context-dependent and ubiquitous eQTL (and plot results)
+5) 9Jun21_popDE_and_DE_models.R
+Code to: test for ancestry and treatment effects on gene expression in each cellular environment and estimate sharing with mashR
+6) 9Jun21_run_matrix_eQTL_BYtreatment.R
+Code to: test for eQTL in each cellular environment
+7) 9Jun21_matrix_eQTL_mashR_BYtreatment.R
+Code to: estimate sharing of eQTL effects across cellular environments with mashR
+
+Larger data files pointed to in these scripts will be available on Dryad following publication. The raw data (FASTQ files from mRNA-seq) will be available on NCBI GEO.
+
+Note that the specific paths in the scripts will not work on your computer and you will need to change them accordingly.
+
+Please contact me at amandalea7180@gmail.com with any questions.
