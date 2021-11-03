@@ -16,8 +16,6 @@ library(ggplot2);library(ggmap); library(devtools)
 library(ggrepel)
 
 # sampling locations - zoomed in
-register_google('AIzaSyBqRWaHZTtsvaSOIwDdHjmTVPD-cXvaKrE')
-
 map2 <- get_map(location = c(lon = mean(gps2$Population.longitude), lat = mean(gps2$Population.latitude)),maptype = "watercolor",zoom=2,color="bw")
 m2 <- ggmap(map2)
 
