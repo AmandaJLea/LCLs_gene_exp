@@ -1,0 +1,18 @@
+trait	trait2	enrich	enrich_pval	info	Phenotype	Category	Case.Coontrol	Sample_Size
+Astle_et_al_2016_Eosinophil_counts	Eosinophil counts	1.081259348	0.001912398	shared	Eosinophil counts	Immune	0	173480
+Astle_et_al_2016_Lymphocyte_counts	Lymphocyte counts	1.074425773	0.002714189	shared	Lymphocyte counts	Immune	0	173480
+Astle_et_al_2016_Myeloid_white_cell_count	Myeloid white cell count	1.098448418	0.005536078	GxE	Myeloid white cell count	Immune	0	173480
+Astle_et_al_2016_Neutrophil_count	Neutrophil count	1.095839286	0.00819621	GxE	Neutrophil count	Immune	0	173480
+Astle_et_al_2016_Platelet_count	Platelet count	1.108788939	1.33E-06	shared	Platelet count	Immune	0	173480
+Astle_et_al_2016_Platelet_count	Platelet count	1.145398148	2.55E-06	GxE	Platelet count	Immune	0	173480
+Astle_et_al_2016_Reticulocyte_count	Reticulocyte count	1.088590071	0.008909582	GxE	Reticulocyte count	Immune	0	173480
+Astle_et_al_2016_Sum_basophil_neutrophil_counts	Basophil + neutrophil counts	1.09922747	0.006543728	GxE	Sum basophil neutrophil counts	Immune	0	173480
+Astle_et_al_2016_Sum_neutrophil_eosinophil_counts	Neutrophil + eosinophil counts	1.091877667	0.009764561	GxE	Sum neutrophil eosinophil counts	Immune	0	173480
+IMMUNOBASE_Multiple_sclerosis_hg19	Multiple Sclerosis	1.248083594	0.009027845	GxE	Multiple Sclerosis	Other	1	27098
+RA_OKADA_TRANS_ETHNIC	Rheumatoid Arthritis	1.147166247	0.003515768	shared	Rheumatoid Arthritis	Immune	1	80799
+UKB_20002_1226_self_reported_hypothyroidism_or_myxoedema	Hypothyroidism or Myxoedema (self reported)	1.117868878	0.001489217	shared	"Non-cancer illness code, self-reported: hypothyroidism/myxoedema"	Other	1	337119
+UKB_20002_1261_self_reported_multiple_sclerosis	Multiple Sclerosis (self reported)	1.395512157	0.007700862	GxE	"Non-cancer illness code, self-reported: multiple sclerosis"	Other	1	337119
+UKB_20002_1461_self_reported_inflammatory_bowel_disease	Inflammatory Bowel Disease (self reported)	2.100469346	0	shared	"Non-cancer illness code, self-reported: inflammatory bowel disease"	Immune	1	337119
+UKB_20002_1464_self_reported_rheumatoid_arthritis	Rheumatoid Arthritis (self reported)	1.444458828	0.003371305	GxE	"Non-cancer illness code, self-reported: rheumatoid arthritis"	Immune	1	337119
+UKB_6152_7_diagnosed_by_doctor_Blood_clot_in_the_lung	Blood clot	2.284384887	0.006080676	GxE	"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: Blood clot in the lung"	Other	1	337119
+UKB_6152_9_diagnosed_by_doctor_Hayfever_allergic_rhinitis_or_eczema	Allergic Rhinitis or Eczema	1.157368992	0.000849928	GxE	"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor: Hayfever, allergic rhinitis or eczema"	Immune	1	337119
