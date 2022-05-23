@@ -20,7 +20,7 @@ Code to: test for eQTL in each cellular environment
 7) 9Jun21_matrix_eQTL_mashR_BYtreatment.R
 Code to: estimate sharing of eQTL effects across cellular environments with mashR
 
-The raw data (FASTQ files from mRNA-seq) as well as the normalized expression matrix used for analysis (31Mar21_all_runs_voom_resid.txt) will be available on NCBI GEO following publication. A few files (e.g., genotypes from the 1000 Genomes project) are not posted due to size limitations, but please email me if you are looking for something specific.
+Data required as input for various scripts are posted in the "data" folder. Ancestry and treatment effects per gene are summarized in the files in the "main results" folder. The raw data (FASTQ files from mRNA-seq) will be available on NCBI GEO following publication.
 
 Note that the specific paths in the scripts will not work on your computer and you will need to change them accordingly.
 
