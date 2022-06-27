@@ -20,7 +20,7 @@ Code to: test for eQTL in each cellular environment
 7) 9Jun21_matrix_eQTL_mashR_BYtreatment.R
 Code to: estimate sharing of eQTL effects across cellular environments with mashR
 
-Data required as input for each script, as well as the output from the script, are posted in the "data" folder. In a few cases, the input or output was too large to post here, and those files are hosted on Zenodo. The raw data (FASTQ files from mRNA-seq) will be available on NCBI GEO following publication.
+Data required as input for each script, as well as the output from the script, are posted in the "data" folder. In a few cases, the input or output was too large to post here, and those files are hosted on Zenodo (https://zenodo.org/record/6595427#.YrnVKJPMJuU). The raw data (FASTQ files from mRNA-seq) will be available on NCBI GEO following publication.
 
 Log fold changes estimated for ancestry and treatment effects are additionally summarized in easy to use tables in the "main results" folder. We also provide an easy to use table in this folder with the mashR LFSR for a given eQTL estimated in each environment, as well as information on how many environments the eQTL was shared between.
 
